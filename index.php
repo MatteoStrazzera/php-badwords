@@ -27,6 +27,7 @@ $swear_word= "$_GET[swear_word]"
     </form>
 
     <p><?php echo $paragraph ?></p>
+    <span>Il paragrafo è lungo <?php echo str_word_count($paragraph) ?> parole</span>
     <p><?php echo $swear_word ?></p>
 </body>
 </html>
