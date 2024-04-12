@@ -16,8 +16,8 @@ $message= "PHP Badwords"
     <h1><?php echo $message ?></h1>
 
     <form action="" method="get">
-        <input type="text" placeholder="Inserisci il tuo paragrafo">
-        <input type="text" placeholder="Inserisci il tuo insulto peggiore">
+        <textarea name="paragraph" placeholder="Inserisci un paragrafo" cols="30" rows="10"></textarea>
+        <input type="text" name="swear_word" placeholder="Inserisci il tuo insulto peggiore">
         <button type="submit">Clicca per inviare</button>
     </form>
 </body>
