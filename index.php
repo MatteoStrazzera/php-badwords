@@ -14,5 +14,11 @@ $message= "PHP Badwords"
 </head>
 <body>
     <h1><?php echo $message ?></h1>
+
+    <form action="" method="get">
+        <input type="text" placeholder="Inserisci il tuo paragrafo">
+        <input type="text" placeholder="Inserisci il tuo insulto peggiore">
+        <button type="submit">Clicca per inviare</button>
+    </form>
 </body>
 </html>
