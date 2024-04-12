@@ -1,6 +1,11 @@
 <?php
 
-$message= "PHP Badwords"
+$message= "PHP Badwords";
+
+var_dump($_GET);
+
+$paragraph= "$_GET[paragraph]";
+$swear_word= "$_GET[swear_word]"
 
 ?>
 
@@ -20,5 +25,8 @@ $message= "PHP Badwords"
         <input type="text" name="swear_word" placeholder="Inserisci il tuo insulto peggiore">
         <button type="submit">Clicca per inviare</button>
     </form>
+
+    <p><?php echo $paragraph ?></p>
+    <p><?php echo $swear_word ?></p>
 </body>
 </html>
